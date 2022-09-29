@@ -20,6 +20,7 @@
         "drupal/core": "9.5.x-dev",
         "drupal/core-composer-scaffold": "9.5.x-dev",
         "drupal/core-recommended": "9.5.x-dev",
+        "drupal/group": "^1.5",
         "drupal/webform": "6.2.x-dev",
         "drush/drush": "^11.0",
         "oomphinc/composer-installers-extender": "^2.0",
