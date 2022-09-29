@@ -8,7 +8,8 @@ composer install --no-interaction --no-progress --apcu-autoloader || exit 1;
 echo "Composer packages are installed"
 
 echo "Running site installation."
-drush -y si standard || exit 1;
+drush -y si minimal || exit 1;
+drush -y en address captcha chosen group jquery_ui_datepicker mailsystem telephone_validation token clientside_validation paragraphs select2 smtp entity_print
 drush -y en $PROJECT_NAME || exit 1;
 echo "Site installation is finished"
 
