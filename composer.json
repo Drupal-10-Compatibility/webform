@@ -114,6 +114,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/webform": {
+                "#3296068: [Drupal 9.4.x+] Test and one-off D10 deprecations": "https://www.drupal.org/files/issues/2022-07-19/webform-various-deprecations-3296068-4.patch"
+            }
         }
     },
     "scripts": {
